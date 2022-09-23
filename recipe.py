@@ -135,6 +135,8 @@ def stage_three(dough):
 
 		if baking_sheet.cookies.append(dough_ball[index]) + utensil == thickness:
 			pass
+	
+	return baking_sheet
 		
 def stage_four(panned_cookies):
 	temperature = {"degrees": 375, "unitOfMeasurement": "fahrenheit"}
