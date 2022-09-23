@@ -151,12 +151,14 @@ def stage_four(panned_cookies):
 	
 	if oven.baking_sheet.cookies == 'golden_brown':
 		removed_cookies = oven.baking_sheet
+		return removed_cookies
 	else:
 		while count <= 10800: #3 minutes
 			count += 1
 		removed_cookies = oven.baking_sheet
+		return removed_cookies
 	
-	return removed_cookies
+	
 
 # init recipe
 mixture = stage_one(ingredients)
