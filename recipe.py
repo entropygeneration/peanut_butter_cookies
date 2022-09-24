@@ -141,7 +141,7 @@ def stage_three(dough):
 def stage_four(panned_cookies):
 	temperature = {"degrees": 375, "unitOfMeasurement": "fahrenheit"}
 	count = 0 # time in seconds
-	oven = Oven(375, temperature)
+	oven = Oven(None, temperature)
 
 	if oven.temperature == 375:
 		oven.baking_sheet = panned_cookies
